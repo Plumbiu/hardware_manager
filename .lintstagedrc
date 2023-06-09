@@ -1,0 +1,6 @@
+{
+  "*.{js,ts,vue}": [
+    "prettier",
+    "eslint --max-warnings 0 --ext .js,.vue,.ts src"
+  ]
+}
