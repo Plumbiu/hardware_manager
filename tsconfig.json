@@ -2,6 +2,7 @@
   "compilerOptions": {
     // 允许从没有设置默认导出的模块中默认导入。这并不影响代码的输出，仅为了类型检查
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "types": ["vite/client", "element-plus/global"],
     // 解析非相对模块名的基准目录
     "baseUrl": ".",
@@ -31,5 +32,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "*.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "*.d.ts", "src/router/index.js"],
 }

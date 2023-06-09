@@ -1,13 +1,9 @@
 <script setup lang="ts">
-const id: number = 111
+import Layout from './view/Layout.vue'
 </script>
 
 <template>
-  <div>
-    <ElButton type="primary">{{id}}</ElButton>
-  </div>
+  <Layout />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

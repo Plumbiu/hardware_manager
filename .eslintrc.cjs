@@ -50,7 +50,6 @@ module.exports = {
     'no-self-compare': 'error', // 禁止自身比较
     'no-self-assign': 'error', // 禁止自我赋值
     'no-unused-vars': 'error', // 禁止出现未使用过的变量
-    'no-const-assign': 'error', // 禁止修改 const 声明的变量
     'no-func-assign': 'error', // 禁止对 function 声明重新赋值
     'no-mixed-spaces-and-tabs': 'error', //禁止混用tab和空格
     'indent': ['error', 2], //缩进风格这里不做硬性规定，但是产品组内要达成统一
