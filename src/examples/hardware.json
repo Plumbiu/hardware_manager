@@ -13,7 +13,13 @@
     "col": "2",
     "box_num": "塑料柜-1"
   },
-  { "name": "OPA227u", "type": "IC", "row": "A", "col": "3", "box_num": "塑料柜-1" },
+  {
+    "name": "OPA227u",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-1"
+  },
   {
     "name": "CSD19536KCS",
     "type": "IC",
@@ -21,9 +27,27 @@
     "col": "4",
     "box_num": "塑料柜-1"
   },
-  { "name": "OPA330ADI", "type": "IC", "row": "A", "col": "5", "box_num": "塑料柜-1" },
-  { "name": "OPA2227U", "type": "IC", "row": "A", "col": "6", "box_num": "塑料柜-1" },
-  { "name": "NE555", "type": "IC", "row": "B", "col": "1", "box_num": "塑料柜-1" },
+  {
+    "name": "OPA330ADI",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "OPA2227U",
+    "type": "IC",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "NE555",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-1"
+  },
   {
     "name": "STM32F407VET6",
     "type": "IC",
@@ -45,14 +69,62 @@
     "col": "4",
     "box_num": "塑料柜-1"
   },
-  { "name": "UCC215430", "type": "IC", "row": "B", "col": "5", "box_num": "塑料柜-1" },
-  { "name": "UCC21520", "type": "IC", "row": "B", "col": "6", "box_num": "塑料柜-1" },
-  { "name": "DRV8711", "type": "IC", "row": "C", "col": "1", "box_num": "塑料柜-1" },
-  { "name": "DRV8886", "type": "IC", "row": "C", "col": "2", "box_num": "塑料柜-1" },
-  { "name": "DRV8825", "type": "IC", "row": "C", "col": "3", "box_num": "塑料柜-1" },
-  { "name": "LM5161", "type": "IC", "row": "C", "col": "4", "box_num": "塑料柜-1" },
-  { "name": "IS0224A", "type": "IC", "row": "C", "col": "5", "box_num": "塑料柜-1" },
-  { "name": "ISO0224B", "type": "IC", "row": "C", "col": "6", "box_num": "塑料柜-1" },
+  {
+    "name": "UCC215430",
+    "type": "IC",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "UCC21520",
+    "type": "IC",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "DRV8711",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "DRV8886",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "DRV8825",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "LM5161",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "IS0224A",
+    "type": "IC",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "ISO0224B",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-1"
+  },
   {
     "name": "TPS5450DDA",
     "type": "IC",
@@ -60,7 +132,13 @@
     "col": "1",
     "box_num": "塑料柜-1"
   },
-  { "name": "TPS55340", "type": "IC", "row": "D", "col": "2", "box_num": "塑料柜-1" },
+  {
+    "name": "TPS55340",
+    "type": "IC",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料柜-1"
+  },
   {
     "name": "TPS04211DGQ",
     "type": "IC",
@@ -75,7 +153,13 @@
     "col": "4",
     "box_num": "塑料柜-1"
   },
-  { "name": "TPS54560", "type": "IC", "row": "D", "col": "5", "box_num": "塑料柜-1" },
+  {
+    "name": "TPS54560",
+    "type": "IC",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-1"
+  },
   {
     "name": "STM32F103VCT6",
     "type": "IC",
@@ -90,7 +174,13 @@
     "col": "1",
     "box_num": "塑料柜-1"
   },
-  { "name": "REF3133", "type": "IC", "row": "E", "col": "4", "box_num": "塑料柜-1" },
+  {
+    "name": "REF3133",
+    "type": "IC",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料柜-1"
+  },
   {
     "name": "74HC4040DR",
     "type": "IC",
@@ -98,11 +188,5472 @@
     "col": "5",
     "box_num": "塑料柜-1"
   },
-  { "name": "AMC1311", "type": "IC", "row": "E", "col": "6", "box_num": "塑料柜-1" },
-  { "name": "TLV76050", "type": "IC", "row": "F", "col": "1", "box_num": "塑料柜-1" },
-  { "name": "TLV76012", "type": "IC", "row": "F", "col": "2", "box_num": "塑料柜-1" },
-  { "name": "ACS722", "type": "10", "row": "B", "col": "I", "box_num": "塑料柜-1" },
-  { "name": "ACS722", "type": "5A", "row": "B", "col": "C", "box_num": "塑料柜-1" },
-  { "name": "SX1308", "type": "IC", "row": "F", "col": "5", "box_num": "塑料柜-1" },
-  { "name": "TPS7333", "type": "IC", "row": "F", "col": "6", "box_num": "塑料柜-1" }
+  {
+    "name": "AMC1311",
+    "type": "IC",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "TLV76050",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "TLV76012",
+    "type": "IC",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "ACS722",
+    "type": "10",
+    "row": "B",
+    "col": "I",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "ACS722",
+    "type": "5A",
+    "row": "B",
+    "col": "C",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "SX1308",
+    "type": "IC",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "TPS7333",
+    "type": "IC",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料柜-1"
+  },
+  {
+    "name": "AMS-1117-3V3",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "AMS-1117-5V",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "STM32F103RCT6",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP6002T-E/SN",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP4728-E/UN",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP1640T-I/CHY",
+    "type": "IC",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ADG884BRMZ",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC16F785-I/SS",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP87018T-U/MF",
+    "type": "IC",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP87022T-U/MF",
+    "type": "IC",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP87030T-U/MF",
+    "type": "IC",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC24FJ128G",
+    "type": "IC",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC24FJ256G",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC24HJ64GP",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC18F4520-I/PT",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC18F45K20-I/PT",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "PIC33FJ18MC",
+    "type": "IC",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ANTISTATIC",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "TM4C1236H6PMI",
+    "type": "IC",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ADS1115BQDGSRQ1",
+    "type": "IC",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "CYCLONE IV",
+    "type": "IC",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ADS7844E",
+    "type": "IC",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "OPA2227MDREP",
+    "type": "IC",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "OPA2227U/2KS",
+    "type": "IC",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "UCC24612-1DBVR",
+    "type": "IC",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "UCC24612-2DBVR",
+    "type": "IC",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "UCC28180DR",
+    "type": "IC",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ADS1232IPW",
+    "type": "IC",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "DAC76120",
+    "type": "IC",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "DAC9000",
+    "type": "IC",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "VCA821ID",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "TPS5430DDA",
+    "type": "IC",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "AD8032AR9905",
+    "type": "IC",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ADS124S08I",
+    "type": "IC",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "ADS124S08I(QFN)",
+    "type": "IC",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "MCP6S92-E/P",
+    "type": "IC",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-2"
+  },
+  {
+    "name": "TLV5638",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "AD/DA",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "LED",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS54560",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "BQ24735",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "SGM722XS",
+    "type": "IC",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TLV5623",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "LT4320",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "UCC28019",
+    "type": "IC",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS28225",
+    "type": "IC",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "MC34063",
+    "type": "IC",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "6032钽电容",
+    "type": "钽电容",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TLV5614",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "INA212",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "REF2041",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS54360",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS40210",
+    "type": "IC",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "LM3406",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "ADS1115",
+    "type": "IC",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "INA198",
+    "type": "IC",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "REF2033",
+    "type": "IC",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS5430",
+    "type": "IC",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS61175",
+    "type": "IC",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "UC3842",
+    "type": "IC",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "ADS1112",
+    "type": "IC",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "INA197",
+    "type": "IC",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "REF2030",
+    "type": "IC",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS55340",
+    "type": "IC",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS61085",
+    "type": "IC",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "LM5121",
+    "type": "IC",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "ADS1110A",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "INA196",
+    "type": "IC",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "REF2025",
+    "type": "IC",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS54335",
+    "type": "IC",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "TPS54540",
+    "type": "IC",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "LM5122",
+    "type": "IC",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-3"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-4"
+  },
+  {
+    "name": "micro_USB",
+    "type": "USB",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "S8550（贴片）(2TY)",
+    "type": "PNP",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "1B05 03直插8M晶振",
+    "type": "晶振",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "1B05 06 USB-AM卷边",
+    "type": "接口",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "1B0507 BNC公头",
+    "type": "接口",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "8*8自锁开关",
+    "type": "开关",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "8.5*8.5自锁开关",
+    "type": "开关",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "7*7自锁开关",
+    "type": "开关",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "58SK N58B",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "纽扣电池底座",
+    "type": "底座",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-5"
+  },
+  {
+    "name": "电源端子",
+    "type": "端子",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "弯折铝管10*1.2 0.02",
+    "type": "弯折铝管",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "弯折铝管15*1.5 0.01",
+    "type": "弯折铝管",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "74435573300 T1101电感线圈",
+    "type": "电感",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "栅栏式接线端子",
+    "type": "端子",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "330电感线圈",
+    "type": "电感",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "密封圈77310A7",
+    "type": "密封圈",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "密封圈77076A7",
+    "type": "密封圈",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "密封圈S068125",
+    "type": "密封圈",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "密封圈CS65125",
+    "type": "密封圈",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "DR127-2R2 49CH07 F",
+    "type": "电感",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "189功率电感",
+    "type": "电感",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "221功率电感",
+    "type": "电感",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "弯折铝管10*1.2 0.01",
+    "type": "弯折铝管",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "101功率电感",
+    "type": "电感",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "331功率电感",
+    "type": "电感",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "470 50V电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "471功率电感",
+    "type": "电感",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "7B 100 35J电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "220 50V 电解电容器",
+    "type": "CAP",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-6"
+  },
+  {
+    "name": "470 25V 电解电容器",
+    "type": "CAP",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-6"
+  },
+  { "name": "贴片二极管IN4148D", "type": "二极管", "row": "A", "col": "1" },
+  {
+    "name": "无源晶振",
+    "type": "晶振",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "贴片按钮",
+    "type": "按钮",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "10K电阻器",
+    "type": "电阻",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "直插S8550",
+    "type": "三极管",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "L298N",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "STM32F103ZET6",
+    "type": "IC",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "温湿度传感器",
+    "type": "传感器",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "L7809CV",
+    "type": "三极管",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "自恢复保险丝",
+    "type": "保险丝",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "LM324N",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "T插头",
+    "type": "插头",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "DS1302Z",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "ATMEL611",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "微型丝杆步进电机",
+    "type": "电机",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "暖白直插LED",
+    "type": "LED",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "直插LED圆头",
+    "type": "LED",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "USB-AF180°插板直脚",
+    "type": "接口",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "弯折排针",
+    "type": "排针",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "3V继电器",
+    "type": "继电器",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "L7812CV",
+    "type": "三极管",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "USB-AF90°侧插",
+    "type": "接口",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "12M直插晶振",
+    "type": "晶振",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "DALLAS18B20",
+    "type": "三极管",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "LM311P",
+    "type": "IC",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料柜-7"
+  },
+  {
+    "name": "轻触式按钮开关",
+    "type": "开关",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-8"
+  },
+  {
+    "name": "1000uF 10V",
+    "type": "直插式电解电容",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-8"
+  },
+  {
+    "name": "10nF",
+    "type": "CAP",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-9"
+  },
+  {
+    "name": "100nF",
+    "type": "CAP",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-9"
+  },
+  {
+    "name": "CSD88537",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "F4905S",
+    "type": "MOS管",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "3ARN SEKB",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "CS19501",
+    "type": "三极管",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "CSD19506",
+    "type": "三极管",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "CSD18502",
+    "type": "三极管",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "X9C102S S239AB",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "IR2085",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "UCC27200",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "TPS61175",
+    "type": "IC",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "UCC39002",
+    "type": "IC",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "LM2596S",
+    "type": "IC",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "LM5118",
+    "type": "IC",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "OPA388 68K AGXP",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "LM5170Q1",
+    "type": "IC",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "IR2104S",
+    "type": "IC",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "28019A 39M AK75",
+    "type": "IC",
+    "row": "G",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "UCC27712",
+    "type": "IC",
+    "row": "G",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "INA286",
+    "type": "IC",
+    "row": "H",
+    "col": "1",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "LMZ12003",
+    "type": "IC",
+    "row": "H",
+    "col": "2",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "28019 18M AEXF",
+    "type": "IC",
+    "row": "H",
+    "col": "3",
+    "box_num": "塑料柜-10"
+  },
+  {
+    "name": "10KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "100KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "2KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "1KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "500KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "50KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "200Ω滑动变阻器",
+    "type": "电位器",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "5KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "100Ω滑动变阻器",
+    "type": "电位器",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "500Ω滑动变阻器",
+    "type": "电位器",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "20KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "200KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "10KΩ滑动变阻器",
+    "type": "电位器",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "1MΩ滑动变阻器",
+    "type": "电位器",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料柜-11"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容33nF",
+    "type": "CAP",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "陶瓷电容4.7nF",
+    "type": "CAP",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料柜-12"
+  },
+  {
+    "name": "470μF 50v电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "1000μF 6.3v电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "100μF 25v电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "33μF 25v电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "470μF 16v电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "47μF 50v电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "2200μF 50v电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "330μF 25v电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "100μF 50v电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "330μF 16v电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "220μF 16v电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "470μF 50v电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "100μF 100v电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-13"
+  },
+  {
+    "name": "2pF",
+    "type": "电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "5pF",
+    "type": "电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "10pF",
+    "type": "电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "22pF",
+    "type": "电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "30pF",
+    "type": "电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "33pF",
+    "type": "电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "47pF",
+    "type": "电容",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "68pF",
+    "type": "电容",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "100pF",
+    "type": "电容",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "220pF",
+    "type": "电容",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "330pF",
+    "type": "电容",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "470pF",
+    "type": "电容",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "680pF",
+    "type": "电容",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "102pF",
+    "type": "电容",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "152pF",
+    "type": "电容",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "222pF",
+    "type": "电容",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "332pF",
+    "type": "电容",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "472pF",
+    "type": "电容",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "682pF",
+    "type": "电容",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "103pF",
+    "type": "电容",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "223pF",
+    "type": "电容",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "473pF",
+    "type": "电容",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "683pF",
+    "type": "电容",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "104pF",
+    "type": "电容",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料柜-14"
+  },
+  {
+    "name": "0805 0R",
+    "type": "电阻",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "22R",
+    "type": "电阻",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "100R",
+    "type": "电阻",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "240R",
+    "type": "电阻",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "470R",
+    "type": "电阻",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "1K",
+    "type": "电阻",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "1.5K",
+    "type": "电阻",
+    "row": "A",
+    "col": "7",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "3K",
+    "type": "电阻",
+    "row": "A",
+    "col": "8",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "3K",
+    "type": "电阻",
+    "row": "A",
+    "col": "9",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "4.7K",
+    "type": "电阻",
+    "row": "A",
+    "col": "10",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "5.1K",
+    "type": "电阻",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "10K",
+    "type": "电阻",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "20K",
+    "type": "电阻",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "47K",
+    "type": "电阻",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "100K",
+    "type": "电阻",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "1uF",
+    "type": "电容",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "100nF",
+    "type": "电容",
+    "row": "B",
+    "col": "7",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "1nF",
+    "type": "电容",
+    "row": "B",
+    "col": "8",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "1.5nF",
+    "type": "电容",
+    "row": "B",
+    "col": "9",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "2.2nF",
+    "type": "电容",
+    "row": "B",
+    "col": "10",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "3.3nF",
+    "type": "电容",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "4.7nf",
+    "type": "电容",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "6.8nF",
+    "type": "电容",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "10nF",
+    "type": "电容",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "15nF",
+    "type": "电容",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "47nF",
+    "type": "电容",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "220nF",
+    "type": "电容",
+    "row": "C",
+    "col": "7",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "470nF",
+    "type": "电容",
+    "row": "C",
+    "col": "8",
+    "box_num": "塑料柜-15"
+  },
+  {
+    "name": "SS8050(SOT-23)",
+    "type": "三极管",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-16"
+  },
+  {
+    "name": "SS8550(SOT-23)",
+    "type": "三极管",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-16"
+  },
+  {
+    "name": "SS8050(直插)",
+    "type": "三极管",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-16"
+  },
+  {
+    "name": "SS8550(直插)",
+    "type": "三极管",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-16"
+  },
+  {
+    "name": "SS8050(直插)",
+    "type": "三极管",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-16"
+  },
+  {
+    "name": "SS8550(直插)",
+    "type": "三极管",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-16"
+  },
+  {
+    "name": "2k 电阻",
+    "type": "RES",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "1k",
+    "type": "RES",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "20k",
+    "type": "RES",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "10k",
+    "type": "RES",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "3.3k",
+    "type": "RES",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "100Ω",
+    "type": "RES",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "1.7uF 电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "104 电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "106 电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "22uF",
+    "type": "CAP",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "105 电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "50Ω",
+    "type": "RES",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "22pF电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "102电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "LED",
+    "type": "LED",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "1N4007",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "AO3401",
+    "type": "IC",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "AO3400",
+    "type": "IC",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "MCP73831",
+    "type": "IC",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "LP5907-3.3",
+    "type": "IC",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料柜-17"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "各种钻头",
+    "type": "钻头",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料柜-18"
+  },
+  {
+    "name": "CSD18535",
+    "type": "FET",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "CSD18510",
+    "type": "FET",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "CSD19536kTT",
+    "type": "FET",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "UCC28180",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "UC3854",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "CSD19536KCS",
+    "type": "FET",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "CSD19534",
+    "type": "FET",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "UCC28019",
+    "type": "IC",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "UCC28064",
+    "type": "IC",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "UC3852",
+    "type": "IC",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "L7805ABV",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "TPS565201",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "S8050",
+    "type": "NPN",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-19"
+  },
+  {
+    "name": "贴片电感2.2UH",
+    "type": "LND",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感3.3UH",
+    "type": "LND",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感4.7UH",
+    "type": "LND",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感6.8UH",
+    "type": "LND",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感10UH",
+    "type": "LND",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感15UH",
+    "type": "LND",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感22UH",
+    "type": "LND",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感33UH",
+    "type": "LND",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感47UH",
+    "type": "LND",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感68UH",
+    "type": "LND",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感100UH",
+    "type": "LND",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感150UH",
+    "type": "LND",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感220UH",
+    "type": "LND",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感330UH",
+    "type": "LND",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "贴片电感470UH",
+    "type": "LND",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-20"
+  },
+  {
+    "name": "MC33063",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "M33063A",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "STM32F072C8T6",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "DS1302",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "MAX4238",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "TP4056 1312",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "TPS54302 5430",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "LM324",
+    "type": "IC",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "TPS54302 54302",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "L324",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "SY5830 SOT23-6",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "SY8743 ARJ5GA",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "LM393",
+    "type": "IC",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-21"
+  },
+  {
+    "name": "75P2W2AG3",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "AMS1117 0914",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "05ADKKM TL084C",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "TL084CN",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "81AXOEX",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "MAX232CPE",
+    "type": "IC",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "34063API",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "UTF87008",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "81AXOEX",
+    "type": "IC",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "TL084CN",
+    "type": "IC",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "74HC372N 14",
+    "type": "IC",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "74HC373N 03",
+    "type": "IC",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "LX2272-L4",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "LX2272-L4",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "5M21AB",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "AMC7660M",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "法拉电容1F/0.1F",
+    "type": "CAP",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "2N2222 NPN",
+    "type": "NPN",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "CH444G",
+    "type": "IC",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "NE55517",
+    "type": "IC",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "SN74CBTLV3257",
+    "type": "IC",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "TS5A3160DBVR",
+    "type": "IC",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "SN74LS132N",
+    "type": "IC",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "60欧磁珠",
+    "type": "磁珠",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "393",
+    "type": "IC",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "600欧 1A 100MHz磁珠",
+    "type": "磁珠",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "NA555",
+    "type": "IC",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "100欧磁珠",
+    "type": "磁珠",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "3.5MM耳机插座",
+    "type": "耳机插座",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "CD74HC405",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "USB-A",
+    "type": "USB",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "TF卡座",
+    "type": "TF卡座",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "TF卡座",
+    "type": "TF卡座",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "TF卡座",
+    "type": "TF卡座",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-22"
+  },
+  {
+    "name": "数码管MY5011BH",
+    "type": "模块",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "数码管MY5011BH",
+    "type": "模块",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "功率电感CDRH127",
+    "type": "IND",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "功率电感CDRH127",
+    "type": "IND",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "电位器WH5-1A",
+    "type": "电位器",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "金属按钮开关",
+    "type": "模块",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "数码管MY5011BH",
+    "type": "模块",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "数码管MY5011BH",
+    "type": "模块",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "功率电感CDRH127",
+    "type": "LND",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "功率电感CDRH127",
+    "type": "LND",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "电位器WH5-1A",
+    "type": "电位器",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "金属按钮开关",
+    "type": "开关",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "卧式电位器",
+    "type": "电位器",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "接线柱",
+    "type": "接线柱",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "接线柱",
+    "type": "接线柱",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "弹簧顶针",
+    "type": "顶针",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "磁吸可弹簧顶针",
+    "type": "顶针",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "AAW2LA",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "晶振11.0592",
+    "type": "XTAL",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "贴片磁胶电感",
+    "type": "LND",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "SLK7045T",
+    "type": "IC",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "1206贴片保险丝",
+    "type": "保险丝",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "SIM卡座",
+    "type": "卡座",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "圆形磁铁",
+    "type": "磁铁",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "垫圈",
+    "type": "垫圈",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "TF卡座",
+    "type": "卡座",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-23"
+  },
+  {
+    "name": "接头",
+    "type": "接头",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "TPS61165",
+    "type": "IC",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "STC89C51",
+    "type": "IC",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "IC插座",
+    "type": "插座",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "OP27G",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "L7915CV",
+    "type": "IC",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "继电器",
+    "type": "继电器",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "SJA1000",
+    "type": "IC",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "STC89C51",
+    "type": "IC",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "IC插座",
+    "type": "插座",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "镜头",
+    "type": "镜头",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "SG90舵机",
+    "type": "舵机",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "CMSIS-DAP无线仿真器",
+    "type": "无线仿真器",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "超远景镜头",
+    "type": "镜头",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "扬声器2030椭圆形",
+    "type": "扬声器",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "摄像头",
+    "type": "摄像头",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "CH375B串口通信模块",
+    "type": "串口通信模块",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "S8050三极管",
+    "type": "三极管",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-30"
+  },
+  {
+    "name": "SYN6288语音合成模块",
+    "type": "语音合成模块",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料柜-30"
+  },
+  {
+    "name": "HMC5883L",
+    "type": "IC",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-30"
+  },
+  {
+    "name": "BH1750",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料柜-30"
+  },
+  {
+    "name": "线性电压转换模块",
+    "type": "模块",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "DS1302实时时钟模块",
+    "type": "模块",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "Micro SD卡模块",
+    "type": "模块",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "PID红外循迹模块",
+    "type": "模块",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "OPENMV图像模块",
+    "type": "模块",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "TCRT5000光电开关传感器",
+    "type": "模块",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "DC-DC直流升压电源模块",
+    "type": "模块",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "HC-SR501人体红外感应模块",
+    "type": "模块",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "ESP8266 WIFI模块 无线收发",
+    "type": "模块",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "USB转TTL CH340模块",
+    "type": "模块",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "NRF24L01+2.4G 无线收发模块",
+    "type": "模块",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "DC-DC降压电源模块 4R7",
+    "type": "模块",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "GY-906-DCI 长远距离红外测温传感器",
+    "type": "模块",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "DC-DC降压电源模块 6R8",
+    "type": "模块",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "DRV8833电机驱动模块",
+    "type": "模块",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料柜-39"
+  },
+  {
+    "name": "3路PID寻迹模块",
+    "type": "模块",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "TB6612FNG驱电机驱动",
+    "type": "模块",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "PCA9685 16路 PWM舵机驱动",
+    "type": "模块",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "单双排排母",
+    "type": "排母",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "GN-521 MPU6050",
+    "type": "模块",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "电子罗盘",
+    "type": "模块",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "AMS1117 3.3V",
+    "type": "1117",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "无线串口收发模块",
+    "type": "模块",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "无线收发模块",
+    "type": "模块",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "RFP-602电阻式薄膜压力传感器",
+    "type": "模块",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料柜-42"
+  },
+  {
+    "name": "内六角自攻螺钉/内六角扳手",
+    "type": "基本元器件",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料柜-44"
+  },
+  {
+    "name": "DS3120舵机",
+    "type": "模块",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "DCDC降压模块",
+    "type": "模块",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "ATK-HC05主从一体蓝牙模块",
+    "type": "模块",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "NRF24L01无线收发模块",
+    "type": "模块",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "电位器",
+    "type": "模块",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "SG90舵机",
+    "type": "模块",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "ATK-ESP8266",
+    "type": "模块",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "船型开关",
+    "type": "基本元器件、",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "ESP8266 WIFI收发模块",
+    "type": "模块",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-44"
+  },
+  {
+    "name": "0.1uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "0.22uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "0.47uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "1uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "2.2uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "3.3uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "4.7uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "10uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "10uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "22uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "22uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "22uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "33uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "47uF 10V",
+    "type": "直插式铝电解电容",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "47uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "47uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "47uF 35V",
+    "type": "直插式铝电解电容",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "47uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "100uF 10V",
+    "type": "直插式铝电解电容",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "100uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "100uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "100uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "220uF 10V",
+    "type": "直插式铝电解电容",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "220uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "220uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "220uF 35V",
+    "type": "直插式铝电解电容",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "220uF 50V",
+    "type": "直插式铝电解电容",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "330uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "330uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "330uF 35V",
+    "type": "直插式铝电解电容",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "470uF 10V",
+    "type": "直插式铝电解电容",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "470uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "470uF 25V",
+    "type": "直插式铝电解电容",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "680uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "1000uF 10V",
+    "type": "直插式铝电解电容",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "1000uF 16V",
+    "type": "直插式铝电解电容",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-45"
+  },
+  {
+    "name": "TPS61085-DGKR",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "AT24C02BN-SH-T",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "64GS606",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "MAX232CPE",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "M34063",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "LM324",
+    "type": "IC",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "TPS40210Q",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "肖特基二极管AE4B",
+    "type": "基本元器件",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "公母杜邦线",
+    "type": "基本元器件",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-46"
+  },
+  {
+    "name": "OPA690",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "DAC9000U",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "DAC900E",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "HVKS(丝印)",
+    "type": "IC",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TLV5616CP",
+    "type": "IC",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "56161",
+    "type": "IC",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "AD620AN",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TI TLV",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TL494C",
+    "type": "IC",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MAX3232EPE",
+    "type": "IC",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TC4627",
+    "type": "IC",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "AKF305",
+    "type": "IC",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TC4431",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TC4452",
+    "type": "IC",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6V27-E/SN",
+    "type": "IC",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP1406-E/P",
+    "type": "IC",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TM4C123G",
+    "type": "IC",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "OPA333AIDR",
+    "type": "IC",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6H94-E/SL",
+    "type": "IC",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP870022T-U/MF",
+    "type": "IC",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "AMS1117-3V3",
+    "type": "IC",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "TPS54540",
+    "type": "IC",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "DNCK(丝印)",
+    "type": "IC",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6071-E/SN",
+    "type": "IC",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "STM32RCT6(旧)",
+    "type": "IC",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "EMPTY",
+    "type": "IC",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "BZWV（丝印）",
+    "type": "IC",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "JYQQ（丝印）",
+    "type": "IC",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6562-E/SN",
+    "type": "IC",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP4462-103E/ST",
+    "type": "IC",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "OP07DP",
+    "type": "IC",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6H02-E/SH",
+    "type": "IC",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6N11-001E",
+    "type": "IC",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP6V02-E/SN",
+    "type": "IC",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "MCP19111-E/MQ",
+    "type": "IC",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "AD5541",
+    "type": "IC",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-47"
+  },
+  {
+    "name": "5路数字量循迹传感器",
+    "type": "模块",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "4X4矩阵按键",
+    "type": "模块",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "CAN总线模块开发学习板",
+    "type": "模块",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "L298N电机驱动模块",
+    "type": "模块",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "五路寻迹传感器模块TELEKY",
+    "type": "模块",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "HC-05主从一体蓝牙模块",
+    "type": "模块",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "27A 12V",
+    "type": "干电池",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "GPS 北斗双定位模块",
+    "type": "模块",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "HC-08蓝牙模块",
+    "type": "模块",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "OLED显示液晶屏模块",
+    "type": "模块",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "MQ-2烟雾传感器模块",
+    "type": "模块",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "QMC5883L电子指南针罗盘模块",
+    "type": "模块",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "BH1750光强度光照模块",
+    "type": "模块",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "MPU6050模块三维角度传感器",
+    "type": "模块",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "ATK-ESP8266串口WIFI模块",
+    "type": "模块",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "DHT11温湿度传感器模块",
+    "type": "模块",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-48"
+  },
+  {
+    "name": "0.1Ω",
+    "type": "电阻",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "0.2Ω",
+    "type": "电阻",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "0.5Ω",
+    "type": "电阻",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "1K",
+    "type": "电阻",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "100Ω",
+    "type": "电阻",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "3.3K",
+    "type": "电阻",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "5.1K",
+    "type": "电阻",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "3K",
+    "type": "电阻",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "4.7K",
+    "type": "电阻",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "6.8K",
+    "type": "电阻",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "18K",
+    "type": "电阻",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "20K",
+    "type": "电阻",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "15K",
+    "type": "电阻",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "33K",
+    "type": "电阻",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "1.2K",
+    "type": "电阻",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "4701",
+    "type": "电阻",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "47K",
+    "type": "电阻",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "1003",
+    "type": "电阻",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "2203",
+    "type": "电阻",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "4872",
+    "type": "电阻",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "510K",
+    "type": "电阻",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "910K",
+    "type": "电阻",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "100K",
+    "type": "电阻",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "160K",
+    "type": "电阻",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-50"
+  },
+  {
+    "name": "12M晶振",
+    "type": "基本元器件",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "32.768K晶振",
+    "type": "基本元器件",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "色环电阻100R",
+    "type": "直插式电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "100uF 25V",
+    "type": "直插式电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "100uF 100V",
+    "type": "直插式电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "47uF 16V",
+    "type": "直插式电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "DAC0832LCN",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "MY8A83619",
+    "type": "IC",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "ULN2003",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "22uF 25V",
+    "type": "直插式电解电容",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "100uF 50V",
+    "type": "直插式电解电容",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "100uF 50V",
+    "type": "模块",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "电容式驻极话筒",
+    "type": "模块",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "10uF 50V",
+    "type": "直插式电解电容",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "有机实心电位器",
+    "type": "模块",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "3.3uF 50V",
+    "type": "直插式电解电容",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "4.7uF 50V",
+    "type": "直插式电解电容",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "220uF 16V",
+    "type": "直插式电解电容",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "470uF 16V",
+    "type": "直插式电解电容",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-59"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容100uF  100V",
+    "type": "电解电容",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "电解电容1uF  50V",
+    "type": "电解电容",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-60"
+  },
+  {
+    "name": "24M晶振",
+    "type": "晶振",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "2200uF 25V 电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "1uF 50V 电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "10uF 25V 电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "47uF 25V 电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100uF 25V 电解电容",
+    "type": "CAP",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "24M晶振",
+    "type": "晶振",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "2200uF 25V 电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "1uF 50V 电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "10uF 25V 电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "47uF 25V 电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100uF 25V 电解电容",
+    "type": "CAP",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF 50V 电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF 50V 电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "2",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "1uF 50V 电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "3",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "10uF 25V 电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "4",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "47uF 25V 电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "5",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100uF 25V 电解电容",
+    "type": "CAP",
+    "row": "C",
+    "col": "6",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF 50V 电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "1",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF 50V 电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "2",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "1uF 50V 电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "3",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "10uF 25V 电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "4",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "47uF 25V 电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "5",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100uF 25V 电解电容",
+    "type": "CAP",
+    "row": "D",
+    "col": "6",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF 50V 电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "1",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF 50V 电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "2",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "1uF 50V 电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "3",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "10uF 25V 电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "4",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "47uF 25V 电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "5",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100uF 25V 电解电容",
+    "type": "CAP",
+    "row": "E",
+    "col": "6",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF  50V 电解电容",
+    "type": "CAP",
+    "row": "F",
+    "col": "1",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "0.47uF  50V 电解电容",
+    "type": "CAP",
+    "row": "F",
+    "col": "2",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "1uF 50V 电解电容",
+    "type": "CAP",
+    "row": "F",
+    "col": "3",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "10uF 25V 电解电容",
+    "type": "CAP",
+    "row": "F",
+    "col": "4",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "47uF 25V 电解电容",
+    "type": "CAP",
+    "row": "F",
+    "col": "5",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100uF 25V 电解电容",
+    "type": "CAP",
+    "row": "F",
+    "col": "6",
+    "box_num": "塑料盒-63"
+  },
+  {
+    "name": "100V 100uF 电解电容",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "25V 10uF 电解电容",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "100nK100",
+    "type": "CAP",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "50V 470uF",
+    "type": "电解电容",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "25V 100uF",
+    "type": "电解电容",
+    "row": "B",
+    "col": "2",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "6.3V  1000uF",
+    "type": "电解电容",
+    "row": "B",
+    "col": "3",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "50V47uF",
+    "type": "电解电容",
+    "row": "B",
+    "col": "4",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "25V 33uF",
+    "type": "电解电容",
+    "row": "B",
+    "col": "5",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "100uF",
+    "type": "电解电容",
+    "row": "B",
+    "col": "6",
+    "box_num": "塑料盒-64"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "4",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "5",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "电解电容47uF  35V",
+    "type": "电解电容",
+    "row": "A",
+    "col": "6",
+    "box_num": "塑料盒-65"
+  },
+  {
+    "name": "LM2596S-12",
+    "type": "IC",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-68"
+  },
+  {
+    "name": "LM2596S-5",
+    "type": "IC",
+    "row": "A",
+    "col": "2",
+    "box_num": "塑料盒-68"
+  },
+  {
+    "name": "2596-3.3",
+    "type": "IC",
+    "row": "A",
+    "col": "3",
+    "box_num": "塑料盒-68"
+  },
+  {
+    "name": "7805贴片",
+    "type": "IC",
+    "row": "B",
+    "col": "1",
+    "box_num": "塑料盒-68"
+  },
+  {
+    "name": "dac0832",
+    "type": "IC",
+    "row": "C",
+    "col": "1",
+    "box_num": "塑料盒-68"
+  },
+  {
+    "name": "SNAP—MAKER配件",
+    "type": "SNAP MAKER",
+    "row": "A",
+    "col": "1",
+    "box_num": "塑料盒-69"
+  }
 ]
