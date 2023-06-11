@@ -56,7 +56,9 @@
           </el-scrollbar>
         </el-aside>
         <el-scrollbar style="flex: 1">
-          <router-view />
+          <Suspense>
+            <router-view />
+          </Suspense>
         </el-scrollbar>
       </el-main>
     </el-container>

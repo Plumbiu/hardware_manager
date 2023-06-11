@@ -1,6 +1,10 @@
 <script lang="ts" setup>
-import hardwareJSON from './hardware.json'
 import { ref } from 'vue'
+import request from '../utils/request'
+import type { ISpanMethod, IHardware} from './types'
+
+const { data: { data: hardwareJSON } } = await request.get('/')
+
 // 表格数据
 const hardware = ref(hardwareJSON)
 // 查询表单数据
@@ -9,45 +13,43 @@ const searchForm = ref({
   type: '',
 })
 // 合并盒子序号的配置数据
-const arraySpanMethod = ({
-  rowIndex,
-  columnIndex,
-}: {
-  rowIndex: number
-  columnIndex: number
-}) => {
+const spanMethod = ({ rowIndex, columnIndex }: ISpanMethod) => {
   if (columnIndex === 0) {
     if (rowIndex % 18 === 0) {
       return [18, 1]
-    } else {
-      return [0, 0]
     }
+    return [0, 0]
   }
 }
 // 修改弹出框的显示与隐藏
 const visible = ref(false)
-// 需要更新的硬件数据
-const updatedHardware = ref({
-  name: '',
-  type: '',
-  row: '',
-  col: '',
-  box_num: '',
-})
+// 更新框数据
+const updatedHardware = ref<IHardware>()
+// 重新请求函数
+async function reFetch() {
+  const { data: { data: hardwareJSON } } = await request.get('/')
+  hardware.value = hardwareJSON
+}
 // 控制硬件操作按钮的函数
 // type 为 update 表示要更新，type 为 delete 表示要删除
-function handlerEdit(hardware: any, type: 'update' | 'delete') {
-  console.log(hardware, type)
+async function handlerEdit(rowData: any, type: 'update' | 'delete') {
   if (type === 'update') {
+    updatedHardware.value = JSON.parse(JSON.stringify(rowData))
     visible.value = true
-    updatedHardware.value = hardware
-  } else if (type === 'delete') {
-    // TODO: delete 请求删除
+  } else if(type === 'delete') {
+    // 删除操作
+    try {
+      const { data: { message } } = await request.delete(`/${rowData.id}`)
+      ElMessage.success(message)
+      await reFetch()
+    } catch (error) {
+      console.log('err')
+    }
   }
 }
 // 搜索框的搜索函数
 function searchHandler() {
-  hardware.value = hardwareJSON.filter((item) => {
+  hardware.value = hardwareJSON.filter((item: { name: string; type: string; }) => {
     const originName = item.name.toLowerCase()
     const findName = searchForm.value.name.toLowerCase()
     const originType = item.type.toLowerCase()
@@ -62,9 +64,18 @@ function searchHandler() {
   })
 }
 // 修改框的操作，type 为 submit 表示用户确认了修改，type 为 cancel 表示用户取消了修改
-function handleClose(type: 'submit' | 'cancel') {
+async function handleUpdateClose(type: 'submit' | 'cancel') {
   if (type === 'submit') {
     // TODO：put 请求数据
+    const { id, name, type, row, col, box_num } = updatedHardware.value!
+    try {
+      await request.put(`/${id}`, {
+        id, name, type, row, col, box_num
+      })
+      await reFetch()
+    } catch(error) {
+      console.log('error')
+    }
   } else {
     ElMessage.info('用户关闭了修改框')
   }
@@ -107,8 +118,8 @@ function handleClose(type: 'submit' | 'cancel') {
       fit
       height="100vh"
       :data="hardware"
-      :span-method="arraySpanMethod"
-      style="flex: 1"
+      :span-method="spanMethod"
+      style="flex: 1;margin-bottom: 25px;"
     >
       <el-table-column
         align="center"
@@ -125,12 +136,11 @@ function handleClose(type: 'submit' | 'cancel') {
           <el-button size="small" @click="handlerEdit(scope.row, 'update')"
             >更新</el-button
           >
-          <el-popconfirm title="你确定要删除此元件吗">
+          <el-popconfirm @confirm="handlerEdit(scope.row, 'delete')" title="你确定要删除此元件吗">
             <template #reference>
               <el-button
                 size="small"
                 type="danger"
-                @click="handlerEdit(scope.row, 'delete')"
                 >删除</el-button
               >
             </template>
@@ -141,41 +151,41 @@ function handleClose(type: 'submit' | 'cancel') {
   </div>
   <Teleport to="body">
     <el-dialog width="450" v-model="visible" :show-close="false">
-      <h2>修改器件 - {{ updatedHardware.name }}</h2>
+      <h2>修改器件 - {{ updatedHardware?.name }}</h2>
       <el-form :model="updatedHardware">
-        <el-form-item label="器件名称">
+        <el-form-item label="器件名称" prop="name">
           <el-input
-            v-model="updatedHardware.name"
-            :placeholder="updatedHardware.name"
+            v-model="updatedHardware!.name"
+            :placeholder="updatedHardware?.name"
           />
         </el-form-item>
-        <el-form-item label="盒子序号">
+        <el-form-item label="盒子序号" prop="box_num">
           <el-input
-            v-model="updatedHardware.box_num"
-            :placeholder="String(updatedHardware.box_num)"
+            v-model="updatedHardware!.box_num"
+            :placeholder="String(updatedHardware?.box_num)"
           />
         </el-form-item>
-        <el-form-item label="器件类型">
+        <el-form-item label="器件类型" prop="type">
           <el-input
-            v-model="updatedHardware.type"
-            :placeholder="updatedHardware.type"
+            v-model="updatedHardware!.type"
+            :placeholder="updatedHardware?.type"
           />
         </el-form-item>
-        <el-form-item label="器件位置(行)">
+        <el-form-item label="器件位置(行)" prop="row">
           <el-input
-            v-model="updatedHardware.row"
-            :placeholder="updatedHardware.row"
+            v-model="updatedHardware!.row"
+            :placeholder="updatedHardware?.row"
           />
         </el-form-item>
-        <el-form-item label="器件位置(列)">
+        <el-form-item label="器件位置(列)" prop="col">
           <el-input
-            v-model="updatedHardware.col"
-            :placeholder="updatedHardware.col"
+            v-model="updatedHardware!.col"
+            :placeholder="updatedHardware?.col"
           />
         </el-form-item>
       </el-form>
-      <el-button type="info" @click="handleClose('cancel')">取消</el-button>
-      <el-button type="primary" @click="handleClose('submit')">
+      <el-button type="info" @click="handleUpdateClose('cancel')">取消</el-button>
+      <el-button type="primary" @click="handleUpdateClose('submit')">
         确认
       </el-button>
     </el-dialog>
