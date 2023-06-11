@@ -1,5 +1,5 @@
 <template>
-  <el-container class="layout-container-demo" style="height: 100vh;">
+  <el-container class="layout-container-demo" style="height: 100vh">
     <el-container>
       <el-header>
         <span class="logo">孵化器硬件管理系统</span>
@@ -8,7 +8,7 @@
           <span>用户名</span>
         </div>
       </el-header>
-      <el-main style="display: flex;">
+      <el-main style="display: flex">
         <el-aside width="200px">
           <el-scrollbar>
             <el-menu router :default-openeds="['1', '3']">
@@ -66,9 +66,7 @@
           </el-scrollbar>
         </el-aside>
         <el-scrollbar style="flex: 1">
-          <Suspense>
-            <router-view />
-          </Suspense>
+          <router-view />
         </el-scrollbar>
       </el-main>
     </el-container>
