@@ -33,6 +33,7 @@ async function reFetch() {
   } = await request.get('/')
   hardware.value = hardwareJSON
 }
+const isLoading = ref(false)
 // 控制硬件操作按钮的函数
 // type 为 update 表示要更新，type 为 delete 表示要删除
 async function handlerEdit(rowData: any, type: 'update' | 'delete') {
@@ -42,13 +43,17 @@ async function handlerEdit(rowData: any, type: 'update' | 'delete') {
   } else if (type === 'delete') {
     // 删除操作
     try {
+      isLoading.value = true
       const {
         data: { message },
       } = await request.delete(`/${rowData.id}`)
       ElMessage.success(message)
       await reFetch()
+
     } catch (error) {
       console.log('err')
+    } finally {
+      isLoading.value = false
     }
   }
 }
