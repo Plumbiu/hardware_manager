@@ -38,8 +38,16 @@ function currentChangeHandler(newPagenum: number) {
 }
 // 重新请求函数
 async function reFetch() {
-  const { data: { data: hardwareJSON }} = await request.get('/')
-  hardware.value = hardwareJSON
+  try {
+    isLoading.value = true
+    const { data: { data: hardwareJSON }} = await request.get('/')
+    hardware.value = hardwareJSON
+  } catch(error) {
+    ElMessage.error('获取数据失败!')
+  } finally {
+    isLoading.value = false
+  }
+  
 }
 // 控制硬件操作按钮的函数
 // type 为 update 表示要更新，type 为 delete 表示要删除
@@ -55,7 +63,7 @@ async function handlerEdit(rowData: any, type: 'update' | 'delete') {
       ElMessage.success(message)
       await reFetch()
     } catch (error) {
-      console.log('err')
+      ElMessage.error('删除数据失败!')
     } finally {
       isLoading.value = false
     }
@@ -68,12 +76,16 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
     // TODO：put 请求数据
     const { id, name, type, row, col, box_num } = updatedHardware.value!
     try {
+      isLoading.value = true
       await request.put(`/${id}`, {
         id, name, type, row, col, box_num
       })
+      ElMessage.success('更新数据成功!')
       await reFetch()
     } catch (error) {
-      console.log('error')
+      ElMessage.error('更新数据失败!')
+    } finally {
+      isLoading.value = false
     }
   } else {
     ElMessage.info('用户关闭了修改框')
@@ -83,7 +95,7 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container" v-loading.fullscreen.lock="isLoading">
     <div class="form_container">
       <el-form :model="searchForm">
         <el-form-item label="器件名称">
