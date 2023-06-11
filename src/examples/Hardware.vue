@@ -4,7 +4,6 @@ import request from '../utils/request'
 import type { ISpanMethod, IHardware} from './types'
 
 const { data: { data: hardwareJSON } } = await request.get('/')
-
 // 表格数据
 const hardware = ref(hardwareJSON)
 // 查询表单数据
@@ -34,7 +33,7 @@ async function reFetch() {
 // type 为 update 表示要更新，type 为 delete 表示要删除
 async function handlerEdit(rowData: any, type: 'update' | 'delete') {
   if (type === 'update') {
-    updatedHardware.value = JSON.parse(JSON.stringify(rowData))
+    updatedHardware.value = { ...rowData }
     visible.value = true
   } else if(type === 'delete') {
     // 删除操作
@@ -151,7 +150,7 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
   </div>
   <Teleport to="body">
     <el-dialog width="450" v-model="visible" :show-close="false">
-      <h2>修改器件 - {{ updatedHardware?.name }}</h2>
+      <h2>修改器件</h2>
       <el-form :model="updatedHardware">
         <el-form-item label="器件名称" prop="name">
           <el-input
