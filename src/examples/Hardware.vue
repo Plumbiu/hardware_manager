@@ -1,9 +1,11 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import request from '../utils/request'
-import type { ISpanMethod, IHardware} from './types'
+import type { ISpanMethod, IHardware } from './types'
 
-const { data: { data: hardwareJSON } } = await request.get('/')
+const {
+  data: { data: hardwareJSON },
+} = await request.get('/')
 // 表格数据
 const hardware = ref(hardwareJSON)
 // 查询表单数据
@@ -26,7 +28,9 @@ const visible = ref(false)
 const updatedHardware = ref<IHardware>()
 // 重新请求函数
 async function reFetch() {
-  const { data: { data: hardwareJSON } } = await request.get('/')
+  const {
+    data: { data: hardwareJSON },
+  } = await request.get('/')
   hardware.value = hardwareJSON
 }
 // 控制硬件操作按钮的函数
@@ -35,10 +39,12 @@ async function handlerEdit(rowData: any, type: 'update' | 'delete') {
   if (type === 'update') {
     updatedHardware.value = { ...rowData }
     visible.value = true
-  } else if(type === 'delete') {
+  } else if (type === 'delete') {
     // 删除操作
     try {
-      const { data: { message } } = await request.delete(`/${rowData.id}`)
+      const {
+        data: { message },
+      } = await request.delete(`/${rowData.id}`)
       ElMessage.success(message)
       await reFetch()
     } catch (error) {
@@ -48,19 +54,21 @@ async function handlerEdit(rowData: any, type: 'update' | 'delete') {
 }
 // 搜索框的搜索函数
 function searchHandler() {
-  hardware.value = hardwareJSON.filter((item: { name: string; type: string; }) => {
-    const originName = item.name.toLowerCase()
-    const findName = searchForm.value.name.toLowerCase()
-    const originType = item.type.toLowerCase()
-    const findType = searchForm.value.type.toLowerCase()
-    if (searchForm.value.name === '') {
-      return originType.includes(findType)
+  hardware.value = hardwareJSON.filter(
+    (item: { name: string; type: string }) => {
+      const originName = item.name.toLowerCase()
+      const findName = searchForm.value.name.toLowerCase()
+      const originType = item.type.toLowerCase()
+      const findType = searchForm.value.type.toLowerCase()
+      if (searchForm.value.name === '') {
+        return originType.includes(findType)
+      }
+      if (searchForm.value.type === '') {
+        return originName.includes(findName)
+      }
+      return originName.includes(findName) && originType.includes(findType)
     }
-    if (searchForm.value.type === '') {
-      return originName.includes(findName)
-    }
-    return originName.includes(findName) && originType.includes(findType)
-  })
+  )
 }
 // 修改框的操作，type 为 submit 表示用户确认了修改，type 为 cancel 表示用户取消了修改
 async function handleUpdateClose(type: 'submit' | 'cancel') {
@@ -69,10 +77,15 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
     const { id, name, type, row, col, box_num } = updatedHardware.value!
     try {
       await request.put(`/${id}`, {
-        id, name, type, row, col, box_num
+        id,
+        name,
+        type,
+        row,
+        col,
+        box_num,
       })
       await reFetch()
-    } catch(error) {
+    } catch (error) {
       console.log('error')
     }
   } else {
@@ -110,15 +123,20 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
           </el-select>
         </el-form-item>
       </el-form>
+      <el-pagination
+        small
+        background
+        layout="prev, pager, next"
+        :total="50"
+      />
     </div>
     <el-table
       stripe
       border
       fit
-      height="100vh"
       :data="hardware"
       :span-method="spanMethod"
-      style="flex: 1;margin-bottom: 25px;"
+      style="flex: 1; margin-bottom: 25px"
     >
       <el-table-column
         align="center"
@@ -135,13 +153,12 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
           <el-button size="small" @click="handlerEdit(scope.row, 'update')"
             >更新</el-button
           >
-          <el-popconfirm @confirm="handlerEdit(scope.row, 'delete')" title="你确定要删除此元件吗">
+          <el-popconfirm
+            @confirm="handlerEdit(scope.row, 'delete')"
+            title="你确定要删除此元件吗"
+          >
             <template #reference>
-              <el-button
-                size="small"
-                type="danger"
-                >删除</el-button
-              >
+              <el-button size="small" type="danger">删除</el-button>
             </template>
           </el-popconfirm>
         </template>
@@ -183,7 +200,9 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
           />
         </el-form-item>
       </el-form>
-      <el-button type="info" @click="handleUpdateClose('cancel')">取消</el-button>
+      <el-button type="info" @click="handleUpdateClose('cancel')"
+        >取消</el-button
+      >
       <el-button type="primary" @click="handleUpdateClose('submit')">
         确认
       </el-button>
@@ -202,6 +221,12 @@ async function handleUpdateClose(type: 'submit' | 'cancel') {
   position: relative;
   display: flex;
   width: 100%;
+}
+.form_container {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 </style>
 
