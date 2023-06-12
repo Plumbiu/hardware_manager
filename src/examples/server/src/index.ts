@@ -12,5 +12,6 @@ app.use('/api/hardware', hardwareRouter)
 app.use('/api/user', userRouter)
 app.listen(3000, () =>
   console.log(`
-🚀 Server ready at: http://localhost:3000`),
+    🚀 Server ready at: http://localhost:3000
+  `)
 )

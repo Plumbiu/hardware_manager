@@ -23,9 +23,7 @@ router.post('/login', async (req, res) => {
     res.json({
       code: 2000,
       message: '登录成功',
-      data: {
-        token: token
-      }
+      token
     })
   } catch(error: any) {
     res.json({

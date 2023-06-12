@@ -1,9 +1,10 @@
 <script setup>
+import request from '../utils/request'
 import { reactive } from 'vue'
 // 用户登录时输入的数据
 const userInfo = reactive({
-  email: '',
-  password: '',
+  email: '3434909403@qq.com',
+  password: 'liyi182816',
 })
 // 配置校验规则
 const rules = reactive({
@@ -16,8 +17,12 @@ const rules = reactive({
 })
 // 匹配邮箱的正则函数
 const emailReg = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-const onSubmit = () => {
+const onSubmit = async () => {
   // TODO: 用户登录操作
+  const { data: { code } } = await request.post('/user/login', userInfo)
+  if(code !== 2000) {
+    ElMessage.error('用户名或密码错误')
+  }
 }
 // 验证邮箱是否符合规范的函数
 function validateEmail(rule, value, callback) {

@@ -16,4 +16,17 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to) => {
+  if(to.path.includes('login')) {
+    return true
+  } else {
+    const token = localStorage.getItem('hardware_jwt_token')
+    if(!token) {
+      return '/examples/login'
+    }
+    return true
+  }
+})
+
+
 export default router
