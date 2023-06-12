@@ -4,7 +4,7 @@ import request from '../utils/request'
 import type { IHardware, TEdit, TUpdate } from './types'
 import HardwareOption from './components/HardwareOption.vue'
 // 分页数据
-const pagesize = 35
+const pagesize = 20
 const pagenum = ref(1)
 const { data: { data: hardwareJSON } } = await request.get('/')
 const isLoading = ref(false)
