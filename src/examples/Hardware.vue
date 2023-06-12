@@ -6,7 +6,7 @@ import HardwareOption from './components/HardwareOption.vue'
 // 分页数据
 const pagesize = 20
 const pagenum = ref(1)
-const { data: { data: hardwareJSON } } = await request.get('/')
+const { data: { data: hardwareJSON } } = await request.get('/hardware')
 const isLoading = ref(false)
 const total = ref(hardwareJSON.length)
 // 表格数据
@@ -37,7 +37,7 @@ watch([pagenum, searchForm], (newValue) => {
 async function reFetch() {
   try {
     isLoading.value = true
-    const { data: { data: hardwareJSON }} = await request.get('/')
+    const { data: { data: hardwareJSON }} = await request.get('/hardware')
     hardware.value = hardwareJSON
   } catch(error) {
     ElMessage.error('获取数据失败!')
@@ -55,7 +55,7 @@ async function handlerEdit(rowData: IHardware, type: TEdit) {
     // 删除操作
     try {
       isLoading.value = true
-      const { data: { message } } = await request.delete(`/${rowData.id}`)
+      const { data: { message } } = await request.delete(`/hardware/${rowData.id}`)
       ElMessage.success(message)
       await reFetch()
     } catch (error) {
@@ -73,7 +73,7 @@ async function handleUpdateClose(type: TUpdate) {
     const { id, name, type, row, col, box_num } = updatedHardware.value!
     try {
       isLoading.value = true
-      await request.put(`/${id}`, {
+      await request.put(`/hardware/${id}`, {
         id, name, type, row, col, box_num
       })
       ElMessage.success('更新数据成功!')
@@ -163,10 +163,9 @@ async function handleUpdateClose(type: TUpdate) {
           />
         </el-form-item>
         <el-form-item label="器件类型" prop="type">
-          <el-input
-            v-model="updatedHardware!.type"
-            :placeholder="updatedHardware?.type"
-          />
+          <el-select style="padding: 0" v-model="searchForm.type">
+            <HardwareOption />
+          </el-select>
         </el-form-item>
         <el-form-item label="器件位置(行)" prop="row">
           <el-input
