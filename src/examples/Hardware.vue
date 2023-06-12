@@ -198,8 +198,8 @@ async function handleAddUpdate(ModifyType: TModify) {
         </el-form-item>
         <el-form-item label="器件类型" prop="type">
           <el-input
-            v-model="modifiedHardware!.box_num"
-            :placeholder="String(modifiedHardware?.box_num)"
+            v-model="modifiedHardware!.type"
+            :placeholder="String(modifiedHardware?.type)"
           />
         </el-form-item>
         <el-form-item label="器件位置(行)" prop="row">
@@ -241,8 +241,8 @@ async function handleAddUpdate(ModifyType: TModify) {
         </el-form-item>
         <el-form-item label="器件类型" prop="type">
           <el-input
-            v-model="modifiedHardware!.box_num"
-            :placeholder="String(modifiedHardware?.box_num)"
+            v-model="modifiedHardware!.type"
+            :placeholder="String(modifiedHardware?.type)"
           />
         </el-form-item>
         <el-form-item label="器件位置(行)" prop="row">
