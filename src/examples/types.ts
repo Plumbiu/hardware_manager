@@ -26,7 +26,13 @@ interface IHardware {
   row:     string
 }
 
+type TEdit = 'update' | 'delete'
+
+type TUpdate = 'submit' | 'cancel'
+
 export {
   ISpanMethod,
-  IHardware
+  IHardware,
+  TEdit,
+  TUpdate
 }
