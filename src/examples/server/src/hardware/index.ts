@@ -72,17 +72,23 @@ router.delete('/:id', async (req, res) => {
 })
 // 增加单个硬件
 router.post('/', async (req, res) => {
-  const bodyData = req.body
+  const { name, type, col, row, box_num } = req.body
+  console.log(req.body)
+  
   try {
     const postedHarware = await prisma.hardware.create({
-      data: bodyData
+      data: { name, type, col, row, box_num }
     })
     res.json({
       code: 2000,
       message: '添加硬件成功',
       data: postedHarware
     })
+    console.log('done')
+    
   } catch (err) {
+    console.log(err)
+    
     res.json({
       code: 4000,
       message: '添加硬件失败'

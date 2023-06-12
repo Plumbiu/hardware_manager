@@ -28,11 +28,11 @@ interface IHardware {
 
 type TEdit = 'update' | 'delete'
 
-type TUpdate = 'submit' | 'cancel'
+type TModify = 'update' | 'cancel' | 'add'
 
 export {
   ISpanMethod,
   IHardware,
   TEdit,
-  TUpdate
+  TModify
 }

@@ -1,12 +1,14 @@
 <script lang="ts" setup>
 import { ref, watch } from 'vue'
 import request from '../utils/request'
-import type { IHardware, TEdit, TUpdate } from './types'
+import type { IHardware, TEdit, TModify } from './types'
 import HardwareOption from './components/HardwareOption.vue'
 // 分页数据
 const pagesize = 20
 const pagenum = ref(1)
-const { data: { data: hardwareJSON } } = await request.get('/hardware')
+let {
+  data: { data: hardwareJSON },
+} = await request.get('/hardware')
 const isLoading = ref(false)
 const total = ref(hardwareJSON.length)
 // 表格数据
@@ -14,32 +16,41 @@ const hardware = ref(hardwareJSON.slice(0, pagesize))
 // 查询表单数据
 const searchForm = ref({ name: '', type: '' })
 // 修改弹出框的显示与隐藏
-const visible = ref(false)
+const updateVisible = ref(false)
+// 增加弹出框的显示与隐藏
+const addVisible = ref(false)
 // 更新框数据
-const updatedHardware = ref<IHardware>()
+const modifiedHardware = ref<IHardware>()
 watch([pagenum, searchForm], (newValue) => {
-  const filterHardware = hardwareJSON.filter((item: { name: string; type: string; }) => {
+  hardware.value = filterHardware(newValue)
+}, { deep: true })
+function filterHardware(newValue: any) {
+  const temp = hardwareJSON.filter((item: { name: string; type: string }) => {
     const originName = item.name.toLowerCase()
-    const findName = searchForm.value.name.toLowerCase()
+    const findName = newValue[1].name.toLowerCase()
     const originType = item.type.toLowerCase()
-    const findType = searchForm.value.type.toLowerCase()
-    if (searchForm.value.name === '')
-      return originType.includes(findType)
-    if (searchForm.value.type === '')
-      return originName.includes(findName)
+    const findType = newValue[1].type.toLowerCase()
+    if (newValue[1].name === '') return originType.includes(findType)
+    if (newValue[1].type === '') return originName.includes(findName)
     return originName.includes(findName) && originType.includes(findType)
   })
-  hardware.value = filterHardware.slice((newValue[0] - 1) * pagesize, newValue[0] * pagesize)
-  total.value = filterHardware.length
-}, { deep: true })
-
+  total.value = temp.length
+  return temp.slice((newValue[0] - 1) * pagesize, newValue[0] * pagesize)
+}
+function handlerAdd(rowData: IHardware) {
+  addVisible.value = true
+  modifiedHardware.value = { ...rowData }
+}
 // 重新请求函数
 async function reFetch() {
   try {
     isLoading.value = true
-    const { data: { data: hardwareJSON }} = await request.get('/hardware')
-    hardware.value = hardwareJSON
-  } catch(error) {
+    const {
+      data: { data },
+    } = await request.get('/hardware')
+    hardwareJSON = data
+    hardware.value = filterHardware([pagenum.value, searchForm.value])
+  } catch (error) {
     ElMessage.error('获取数据失败!')
   } finally {
     isLoading.value = false
@@ -49,13 +60,15 @@ async function reFetch() {
 // type 为 update 表示要更新，type 为 delete 表示要删除
 async function handlerEdit(rowData: IHardware, type: TEdit) {
   if (type === 'update') {
-    updatedHardware.value = { ...rowData }
-    visible.value = true
+    modifiedHardware.value = { ...rowData }
+    updateVisible.value = true
   } else if (type === 'delete') {
     // 删除操作
     try {
       isLoading.value = true
-      const { data: { message } } = await request.delete(`/hardware/${rowData.id}`)
+      const {
+        data: { message },
+      } = await request.delete(`/hardware/${rowData.id}`)
       ElMessage.success(message)
       await reFetch()
     } catch (error) {
@@ -67,26 +80,40 @@ async function handlerEdit(rowData: IHardware, type: TEdit) {
 }
 // 搜索框的搜索函数
 // 修改框的操作，type 为 submit 表示用户确认了修改，type 为 cancel 表示用户取消了修改
-async function handleUpdateClose(type: TUpdate) {
-  if (type === 'submit') {
+async function handleAddUpdate(ModifyType: TModify) {
+  const { id, name, type, row, col, box_num } = modifiedHardware.value!
+  if (ModifyType === 'update') {
     // TODO：put 请求数据
-    const { id, name, type, row, col, box_num } = updatedHardware.value!
     try {
+      const updateData = { id, name, type, row, col, box_num }
       isLoading.value = true
-      await request.put(`/hardware/${id}`, {
-        id, name, type, row, col, box_num
-      })
+      await request.put(`/hardware/${id}`, updateData)
       ElMessage.success('更新数据成功!')
       await reFetch()
     } catch (error) {
       ElMessage.error('更新数据失败!')
     } finally {
+      updateVisible.value = false
       isLoading.value = false
     }
+  } else if (ModifyType === 'add') {
+    try {
+      const addData = { name, type, row, col, box_num }
+      isLoading.value = true
+      await request.post('/hardware', addData)
+      ElMessage.success('添加数据成功!')
+      await reFetch()
+    } catch(error) {
+      ElMessage.error('更新数据失败!')
+    } finally {
+      isLoading.value = false
+      addVisible.value = false
+    }
   } else {
+    updateVisible.value = false
+    isLoading.value = false
     ElMessage.info('用户关闭了修改框')
   }
-  visible.value = false
 }
 </script>
 
@@ -122,9 +149,16 @@ async function handleUpdateClose(type: TUpdate) {
       <el-table-column
         align="center"
         prop="box_num"
-        label="盒子序号"
-        width="100"
-      />
+        label="盒子类型-序号"
+        width="150"
+      >
+        <template #default="scope">
+          <span>{{ scope.row.box_num }}</span>
+          <el-button type="primary" size="small" @click="handlerAdd(scope.row)"
+            >添加硬件</el-button
+          >
+        </template>
+      </el-table-column>
       <el-table-column prop="name" label="器件名称" />
       <el-table-column prop="type" label="器件类型" />
       <el-table-column prop="row" label="器件位置(行)" />
@@ -147,43 +181,87 @@ async function handleUpdateClose(type: TUpdate) {
     </el-table>
   </div>
   <Teleport to="body">
-    <el-dialog width="450" v-model="visible" :show-close="false">
+    <el-dialog width="450" v-model="updateVisible" :show-close="false">
       <h2>修改器件</h2>
-      <el-form :model="updatedHardware">
+      <el-form :model="modifiedHardware">
         <el-form-item label="器件名称" prop="name">
           <el-input
-            v-model="updatedHardware!.name"
-            :placeholder="updatedHardware?.name"
+            v-model="modifiedHardware!.name"
+            :placeholder="modifiedHardware?.name"
           />
         </el-form-item>
         <el-form-item label="盒子序号" prop="box_num">
           <el-input
-            v-model="updatedHardware!.box_num"
-            :placeholder="String(updatedHardware?.box_num)"
+            v-model="modifiedHardware!.box_num"
+            :placeholder="String(modifiedHardware?.box_num)"
           />
         </el-form-item>
         <el-form-item label="器件类型" prop="type">
-          <el-select style="padding: 0" v-model="searchForm.type">
-            <HardwareOption />
-          </el-select>
+          <el-input
+            v-model="modifiedHardware!.box_num"
+            :placeholder="String(modifiedHardware?.box_num)"
+          />
         </el-form-item>
         <el-form-item label="器件位置(行)" prop="row">
           <el-input
-            v-model="updatedHardware!.row"
-            :placeholder="updatedHardware?.row"
+            v-model="modifiedHardware!.row"
+            :placeholder="modifiedHardware?.row"
           />
         </el-form-item>
         <el-form-item label="器件位置(列)" prop="col">
           <el-input
-            v-model="updatedHardware!.col"
-            :placeholder="updatedHardware?.col"
+            v-model="modifiedHardware!.col"
+            :placeholder="modifiedHardware?.col"
           />
         </el-form-item>
       </el-form>
-      <el-button type="info" @click="handleUpdateClose('cancel')"
+      <el-button type="info" @click="updateVisible = false"
         >取消</el-button
       >
-      <el-button type="primary" @click="handleUpdateClose('submit')">
+      <el-button type="primary" @click="handleAddUpdate('update')">
+        确认
+      </el-button>
+    </el-dialog>
+  </Teleport>
+  <Teleport to="body">
+    <el-dialog width="450" v-model="addVisible" :show-close="false">
+      <h2>添加器件</h2>
+      <el-form :model="modifiedHardware">
+        <el-form-item label="器件名称" prop="name">
+          <el-input
+            v-model="modifiedHardware!.name"
+            :placeholder="modifiedHardware?.name"
+          />
+        </el-form-item>
+        <el-form-item label="盒子序号" prop="box_num">
+          <el-input
+            v-model="modifiedHardware!.box_num"
+            :placeholder="String(modifiedHardware?.box_num)"
+          />
+        </el-form-item>
+        <el-form-item label="器件类型" prop="type">
+          <el-input
+            v-model="modifiedHardware!.box_num"
+            :placeholder="String(modifiedHardware?.box_num)"
+          />
+        </el-form-item>
+        <el-form-item label="器件位置(行)" prop="row">
+          <el-input
+            v-model="modifiedHardware!.row"
+            :placeholder="modifiedHardware?.row"
+          />
+        </el-form-item>
+        <el-form-item label="器件位置(列)" prop="col">
+          <el-input
+            v-model="modifiedHardware!.col"
+            :placeholder="modifiedHardware?.col"
+          />
+        </el-form-item>
+      </el-form>
+      <el-button type="info" @click="addVisible = false"
+        >取消</el-button
+      >
+      <el-button type="primary" @click="handleAddUpdate('add')">
         确认
       </el-button>
     </el-dialog>
@@ -207,6 +285,7 @@ async function handleUpdateClose(type: TUpdate) {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
+  margin: 0 25px;
 }
 </style>
 
