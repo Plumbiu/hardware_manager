@@ -2,7 +2,6 @@ import express from 'express'
 const router = express.Router()
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
-
 // 更新单个硬件
 router.put('/:id', async (req, res) => {
   const { id } = req.params
